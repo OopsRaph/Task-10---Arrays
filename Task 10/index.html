@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 10</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module" defer></script>
+    <script src="https://kit.fontawesome.com/5ed7ecda58.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Main Content -->
+  <main id="content">
+    <section class="desktop-background">
+      <section class="window-container">
+        <!-- Title Bar -->
+        <header class="title-bar">
+          <div class="title-bar-left">
+            <div class="title-bar-icon">
+              <img src="./assets/Explorer logo.webp" alt="Explorer 6" style="width: 16px;">
+            </div>
+            <span class="title-bar-text">Idiot Explorer</span>
+          </div>
+          <div class="window-controls">
+            <button class="window-control"><span class="control-symbol">_</span></button>
+            <button class="window-control"><span class="control-symbol">□</span></button>
+            <button class="window-control close-button"><span class="control-symbol">×</span></button>
+          </div>
+        </header>
+
+        <!-- Nav Bar -->
+        <nav class="toolbar">
+          <div class="nav-buttons">
+            <button class="nav-button"><span class="button-symbol">◄</span></button>
+            <button class="nav-button"><span class="button-symbol">↻</span></button>
+            <button class="nav-button"><span class="button-symbol">►</span></button>
+          </div>
+          <input id="search-bar" placeholder="Search Archive" type="search" name="search-bar">
+            
+        </input>
+          <div class="menu-bar">
+            <button id="search-button" class="search-button" style="border: none; background: none;"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </nav>
+
+        <!-- Primary Content Sections -->
+        <section class="main-content">
+            <div class="info-box">
+                <img src="assets/Acne-Logo.png" alt="Acne-logo" style="width: 200px; height: 200px;">
+                <div class="content-box">
+                    <figure>
+                        <img src="assets/00001-acne-studios-fall-2023-ready-to-wear-credit-gorunway.webp" class="stance-pic" alt="Fall 2023 Ready to Wear">
+                        <figcaption>Fall 2023 Ready to Wear</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/00001-acne-studios-fall-2024-ready-to-wear-credit-gorunway.webp" class="stance-pic" alt="Fall 2024 Ready to Wear">
+                        <figcaption>Fall 2024 Ready to Wear</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/00001-acne-studios-fall-2025-ready-to-wear-credit-gorunway.webp" class="stance-pic" alt="Fall 2025 Ready to Wear">
+                        <figcaption>Fall 2025 Ready to Wear</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/00001-acne-studios-spring-2025-ready-to-wear-credit-gorunway.webp" class="stance-pic" alt="Spring 2025 Ready to Wear">
+                        <figcaption>Spring 2025 Ready to Wear</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/00001-acne-studios-spring-2026-ready-to-wear-credit-gorunway.webp" class="stance-pic" alt="Spring 2026 Ready to Wear">
+                        <figcaption>Spring 2026 Ready to Wear</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/00001-Acne-Studios-Spring022-RTW-Paris-credit-gorunway.webp" class="stance-pic" alt="Spring 2022 Ready to Wear">
+                        <figcaption>Spring 2022 Ready to Wear</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/00002-acne-studios-fall-2022-ready-to-wear-paris-credit-isidore-montag-gorunway.webp" class="stance-pic" alt="Fall 2022 Ready to Wear">
+                        <figcaption>Fall 2022 Ready to Wear</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/00003-acne-studios-spring-2023-ready-to-wear-credit-gorunway.webp" class="stance-pic" alt="Spring 2023 Ready to Wear">
+                        <figcaption>Spring 2023 Ready to Wear</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/00003-acne-studios-spring-2024-ready-to-wear-credit-gorunway.webp" class="stance-pic" alt="Spring 2024 Ready to Wear">
+                        <figcaption>Spring 2024 Ready to Wear</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/00004-Acne-Studios-RTW-Fall-21.webp" class="stance-pic" alt="Fall 2021 Ready to Wear">
+                        <figcaption>Fall 2021 Ready to Wear</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/00008-ACNE-STUDIOS-SPRING-21-RTW.webp" class="stance-pic" alt="Spring 2021 Ready to Wear">
+                        <figcaption>Spring 2021 Ready to Wear</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/01-acne-studios-resort-18.webp" class="stance-pic" alt="Resort 2018">
+                        <figcaption>Resort 2018</figcaption>
+                    </figure>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Status Bar -->
+        <footer class="status-bar">
+          <span>OopsRaph</span>
+        </footer>
+      </section>
+    </section>
+
+    <!-- Taskbar -->
+    <nav class="taskbar">
+      <button class="start-button" aria-label="Start Menu">
+        <img src="./assets/start.webp" alt="Start Icon" class="start-icon"> Start
+      </button>
+      <div class="taskbar-tray">
+        <button class="tray-icon" title="Volume">
+          <img src="./assets/loudspeaker_rays_green-0.webp" alt="Volume muted" class="start-button">
+        </button>
+        <div class="tray-clock" id="tray-clock"></div>
+      </div>
+    </nav>
+
+  </main>
+
+  
+</body>
+</html>
+
+
+
+</body>
+</html>
